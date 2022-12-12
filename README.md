@@ -1,2 +1,0 @@
-# brad
-a freelance developper
