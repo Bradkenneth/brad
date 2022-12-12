@@ -1,0 +1,76 @@
+body {
+    background-color: #0d0d0d;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    margin: -8px !important;
+    padding: 0;
+    height: 25px;
+    background-color: darkred;
+} 
+
+.nav-item {
+    position: absolute;
+    height: auto;
+    width: 50px;
+}
+
+#Logo {
+    left: 3.5%;
+}
+
+#Portfolio {
+    left: 60%;
+}
+
+#About {
+    left: 70%;
+}
+
+#Resume {
+    left: 80%;
+}
+
+#Contact {
+    left: 90%;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #f3efef;
+    display: block;
+    width: 60px;
+}
+
+.nav-item a:avtive {
+    color: blue;
+}
+
+.nav-item a:hover {
+    background: seagreen;
+}
+
+.main-container {
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+section {
+    padding: 10px;
+}
+
+#intro {
+    position: relative;
+    width: 35%;
+    float: left;
+}
+
+#images {
+    width: 800px;
+    height: 600px;
+}
